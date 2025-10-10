@@ -10,6 +10,12 @@ public class Node {
 	this.next=null;
 	}
 
+	public Node(int val) {
+	this.data=val;
+	this.next=null;
+	}
+
+	
 	public int getData() {
 		return data;
 	}

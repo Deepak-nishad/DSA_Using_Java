@@ -47,9 +47,68 @@ public class LinkedList {
 		}
 	}
 	
-	public void insertAtEnd() {
+	public void addAtEnd()
+	{
+		Node newnode = createNode();
+		Node temp=head;
+		
+		if(head==null) //LL is empty
+		{
+			head  =newnode;
+		}
+		else
+		{
+			//search for last node
+			while(temp.getNext()!=null)
+			{
+				temp = temp.getNext();
+			}
+			//connect last node i.e. temp with newnode
+			temp.setNext(newnode);				
+		}//else
+		
+	}//addAtEnd
+	
+	public void insertbyvalue(int val) {
+		Node newNode=createNode();
+		Node temp=head;
+		// when head is null
+		if(head==null) {
+			System.out.println("Linked list is empty ");
+		}
+		// only for one node 
+		else if(temp.getNext()==null) {
+			if(temp.getData()==val)
+			{
+				temp.setNext(newNode);
+			}else {
+				System.out.println("Not found");
+			}
+		}
+		else  {
+			while(temp!=null  && temp.getData()!=val ) {
+				temp=temp.getNext();
+			}
+			
+			if(temp!=null) {
+				newNode.setNext(temp.getNext());
+				 temp.setNext(newNode);
+			}
+			else {
+				System.out.println("Not found");
+			}
+			
+			
+		}
+		
+	
+	
+	
+		
 		
 	}
+	
+	
 	
 	public void printll() {
 		Node temp=head;
