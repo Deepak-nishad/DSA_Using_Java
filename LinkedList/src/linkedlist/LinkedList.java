@@ -108,7 +108,42 @@ public class LinkedList {
 		
 	}
 	
+	public int maxAndMin() {
+		int max=-1;
+		int min=77777;
+		Node temp=head;
+		while(temp!=null) {
+		if(max<temp.getData()) {
+			max=temp.getData();
+		}
+		else if(min>temp.getData()) {
+			min=temp.getData();
+		}
+		temp=temp.getNext();
+		}
+		
+//		return max;
+		return min;
+		
+		
+		
+		
+	}
 	
+	public int FindOccurence(int key) {
+		int cnt=0;
+		Node temp=head;
+		while(temp!=null) {
+			if(temp.getData()==key) {
+				cnt++;
+			}
+			temp=temp.getNext();
+		}
+		
+		return cnt;
+
+		
+	}
 	
 	public void printll() {
 		Node temp=head;

@@ -1,61 +1,66 @@
-2:54:57 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-2:54:57 Microsoft.Shutdown.TabStripModel.CloseAllTabs
-2:54:57 Microsoft.Shutdown.TabStripModel.CloseTabs
-2:54:57 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
-2:54:57 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
-2:54:57 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
-2:54:57 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
-2:54:57 Microsoft.Shutdown.TabStripModel.CloseWebContentses
-2:54:57 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
-2:54:57 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
-2:54:58 Tab33 RenderProcessGone
-2:54:58 Microsoft.UnloadController.ClearUnloadState
-2:54:58 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
-2:54:58 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
-2:54:58 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
-2:54:58 Microsoft.UnloadController.ClearUnloadState
-2:54:58 Browser33 Close Tab33 at 0
-2:54:58 Tab33 WebContentsDestroyed
-2:54:58 Microsoft.UnloadController.TabStripEmpty
-2:54:58 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-2:54:58 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-2:54:58 Microsoft.Shutdown.OnWindowClosing
-2:54:58 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-2:54:58 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-2:54:58 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-2:54:58 Widget Closed: BrowserFrame
-2:54:58 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-2:54:58 Microsoft.Shutdown.OnWindowClosing
-2:54:58 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-2:54:58 Microsoft.Browser_Removed
-2:55:02 Tab32 StartNav665 #typed
-2:55:02 Tab32 FinishNav665
-2:55:02 Tab32 PageLoad
-2:55:13 Tab32 StartNav666 #typed
-2:55:13 Tab32 FinishNav666
-2:55:13 Tab32 PageLoad
-2:55:29 Tab32 StartNav667 #typed
-2:55:29 Tab32 FinishNav667
-2:55:29 Tab32 PageLoad
-2:55:30 Tab32 StartNav668 #typed
-2:55:30 Tab32 FinishNav668
-2:55:30 Tab32 PageLoad
-2:55:33 Tab32 StartNav669 #typed
-2:55:33 Tab32 FinishNav669
-2:55:33 Tab32 PageLoad
-2:55:43 Tab32 StartNav670 #typed
-2:55:43 Tab32 FinishNav670
-2:55:43 Tab32 PageLoad
-2:55:44 Tab32 StartNav671 #typed
-2:55:44 Tab32 FinishNav671
-2:55:44 Tab32 PageLoad
-2:55:57 Tab32 StartNav672 #typed
-2:55:57 Tab32 FinishNav672
-2:55:57 Tab32 PageLoad
-2:56:00 Tab32 StartNav673 #typed
-2:56:00 Tab32 FinishNav673
-2:56:00 Tab32 PageLoad
-3:03:19 Tab32 StartNav674 #typed
-3:03:19 Tab32 FinishNav674
-3:03:19 Tab32 PageLoad
-3:10:29 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+2:40:18 Tab32 StartNav501 #typed
+2:40:18 Tab32 FinishNav501
+2:40:18 Tab32 PageLoad
+2:40:21 Tab32 StartNav502 #typed
+2:40:21 Tab32 FinishNav502
+2:40:21 Tab32 PageLoad
+2:42:30 Tab32 StartNav503 #typed
+2:42:30 Tab32 FinishNav503
+2:42:30 Tab32 PageLoad
+2:42:34 Tab32 StartNav504 #typed
+2:42:34 Tab32 FinishNav504
+2:42:34 Tab32 PageLoad
+2:42:54 Tab32 StartNav505 #typed
+2:42:54 Tab32 FinishNav505
+2:42:54 Tab32 PageLoad
+2:42:56 Tab32 StartNav506 #typed
+2:42:56 Tab32 FinishNav506
+2:42:56 Tab32 PageLoad
+2:42:58 Tab32 StartNav507 #typed
+2:42:58 Tab32 FinishNav507
+2:42:58 Tab32 PageLoad
+2:42:59 Tab32 StartNav508 #typed
+2:42:59 Tab32 FinishNav508
+2:42:59 Tab32 PageLoad
+2:43:41 Tab32 StartNav509 #typed
+2:43:41 Tab32 FinishNav509
+2:43:41 Tab32 PageLoad
+2:43:41 Tab32 StartNav510 #typed
+2:43:41 Tab32 FinishNav510
+2:43:41 Tab32 PageLoad
+2:43:42 Tab32 StartNav511 #typed
+2:43:42 Tab32 FinishNav511
+2:43:42 Tab32 PageLoad
+2:43:43 Tab32 StartNav512 #typed
+2:43:43 Tab32 FinishNav512
+2:43:43 Tab32 PageLoad
+2:43:45 Tab32 StartNav513 #typed
+2:43:45 Tab32 FinishNav513
+2:43:45 Tab32 PageLoad
+2:43:47 Tab32 StartNav514 #typed
+2:43:47 Tab32 FinishNav514
+2:43:47 Tab32 PageLoad
+2:48:27 Tab32 StartNav515 #typed
+2:48:27 Tab32 FinishNav515
+2:48:27 Tab32 PageLoad
+2:50:02 Tab32 StartNav516 #typed
+2:50:02 Tab32 FinishNav516
+2:50:02 Tab32 PageLoad
+2:50:05 Tab32 StartNav517 #typed
+2:50:05 Tab32 FinishNav517
+2:50:05 Tab32 PageLoad
+2:50:08 Tab32 StartNav518 #typed
+2:50:08 Tab32 FinishNav518
+2:50:08 Tab32 PageLoad
+2:50:10 Tab32 StartNav519 #typed
+2:50:10 Tab32 FinishNav519
+2:50:10 Tab32 PageLoad
+2:50:14 Tab32 StartNav520 #typed
+2:50:14 Tab32 FinishNav520
+2:50:14 Tab32 PageLoad
+2:50:16 Tab32 StartNav521 #typed
+2:50:16 Tab32 FinishNav521
+2:50:16 Tab32 PageLoad
+2:51:13 Tab32 StartNav522 #typed
+2:51:13 Tab32 FinishNav522
+2:51:13 Tab32 PageLoad
