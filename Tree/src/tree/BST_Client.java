@@ -15,18 +15,34 @@ public class BST_Client {
 		head.CreateBinaryTree();
 		head.CreateBinaryTree();
 		head.CreateBinaryTree();
+		head.CreateBinaryTree();
+		head.CreateBinaryTree();
+		head.CreateBinaryTree();
+		head.CreateBinaryTree();
+		head.CreateBinaryTree();
 	
 	
-		System.out.println("preorder \n");
-		head.preOrder(head.getRoot());
-		
+//		System.out.println("preorder \n");
+//		head.preOrder(head.getRoot());
+//		
 		
 		System.out.println("Inorder \n");
 		head.inOrder(head.getRoot());
 		
-		System.out.println("postorder \n");
-		head.postOrder(head.getRoot());
+//		System.out.println("postorder \n");
+//		head.postOrder(head.getRoot());
 		
+		if(head.findNodeInBST(600)) {
+			System.out.println("Node is available");
+		}
+		else {
+			System.out.println("Node is not available");
+		}
+		
+		head.deleteNode(70);
+		
+		System.out.println("Inorder \n");
+		head.inOrder(head.getRoot());
 	}
 	
 
